@@ -1,0 +1,49 @@
+# ── Flutter/Dart ───────────────────────────────────────────
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+coverage/
+.pub-cache/
+.pub/
+
+# ── IDEs ───────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+
+# ── SO ─────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Android ────────────────────────────────────────────────
+android/.gradle/
+android/local.properties
+**/keystore.properties
+android/app/*.keystore
+android/app/*.jks
+android/app/google-services.json
+android/app/src/**/google-services.json   # se usar flavors
+
+# ── iOS / macOS ────────────────────────────────────────────
+ios/Pods/
+ios/Runner/GoogleService-Info.plist
+macos/Runner/GoogleService-Info.plist
+**/*.xcuserstate
+ios/Flutter/flutter_export_environment.sh
+
+# ── Windows/Linux/macOS (ephemeral do Flutter) ─────────────
+linux/flutter/ephemeral/
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+
+# ── Firebase Functions (se usar) ───────────────────────────
+functions/node_modules/
+
+# ── Segredos / variáveis de ambiente ───────────────────────
+.env
+.env.*
+*.pem
+*.p12
+*.der

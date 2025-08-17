@@ -1,0 +1,37 @@
+# Arquivos gerados por IDEs
+.idea/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.dart_tool/
+
+# Arquivos gerados pelo Flutter
+/ios/Runner/GeneratedPluginRegistrant.h
+/ios/Runner/GeneratedPluginRegistrant.m
+/ios/.symlinks
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+
+# Arquivos de build
+/build/
+.gradle/
+.cxx/
+
+# Arquivos temporários e de cache
+*.log
+*.tmp
+*.class
+
+# Credenciais e arquivos de configuração (seguro)
+**/.env
+**/*.env
+**/*.keys
+**/*.keystore
+key.properties
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
